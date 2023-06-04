@@ -1,0 +1,28 @@
+
+1. Finish the E-Com application without redux
+
+  1. Seller should be able to add some products
+  2. Buyer should be able to view the added products by Seller
+  3. Cart Page, user should be able to add products to the cart
+  4. Place Order
+
+  Pages To Create:
+    /cart
+    /products --> should behave as per the type of the user logged in
+    /orders
+
+
+2. Redux:
+  State Management Tool, Generalized states ( isLogged, user type, profile ) 
+              are to be held in the redux store
+
+  Setup Store:
+
+  store: ( Initial Store Structure )
+    Actions
+    Reducers
+    View ( dispatch any actions )
+
+if Time Permits:
+3. Simple snack bar desing with the help of redux
+    Optimizing with redux middleware
